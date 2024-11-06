@@ -2,9 +2,11 @@ sudo apt update
 sudo apt install vsftpd
 sudo systemctl start vsftpd
 sudo nano /etc/vsftpd.conf
+sudo nano abcd.txt
 sudo systemctl restart vsftpd
 sudo ufw allow ftp
 sudo useradd -m testuser
 sudo passwd testuser
 sudo ftp comp-HP
-ftp
+ftp > ls
+ftp > put abcd.txt
