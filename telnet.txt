@@ -2,7 +2,7 @@
 sudo apt install telnetd -y
 sudo systemctl status inetd
 telnet www.google.com
-sudo ufwstatus
+sudo ufw status
 sudo ufw enable
 sudo ufw allow23
 sudo systemcte status inetd
