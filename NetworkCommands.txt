@@ -1,15 +1,20 @@
-1)ifconfig
-2)ping192.168.3.25
+1)ifconfig (GetMac bola tho ye karna)
+2)ping 192.168.3.25
 3)nslookup www.google.com
-4)netstat
-5)sudo apt install whois
-whois www.google.com
-
-6) route -n
-7) DiG 9.16.1-Ubuntu
-8) date
-9) sudo snap install nmap  # version 7.95
-10) sudo snap install nmap
-    nmap
-11) traceroute www.google.com
-12) nmap 192.168.3.43
+4)netstat -tuln (lists all tcp and udp connections)
+5)NbtStat : nmblookup -A <ip> 
+6)hostname
+7)systeminfo : uname -a
+8)arp -a
+9)PingPath : mtr www.google.com
+10)sudo apt install whois
+11)whois www.google.com
+12)route : r
+13) route -n
+14) DiG 9.16.1-Ubuntu
+15) date
+16) sudo snap install nmap  # version 7.95
+17) sudo snap install nmap
+18)  nmap
+19) traceroute www.google.com
+20) nmap 192.168.3.43
