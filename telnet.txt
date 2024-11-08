@@ -5,6 +5,6 @@ telnet www.google.com
 sudo ufw status
 sudo ufw enable
 sudo ufw allow 23
-sudo systemcte status inetd
+sudo systemctl status inetd
 telnet 192.168.1.10
 telnet localhost
